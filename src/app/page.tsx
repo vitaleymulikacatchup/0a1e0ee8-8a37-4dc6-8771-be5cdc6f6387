@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -27,7 +27,7 @@ export default function Page() {
       defaultTextAnimation="entrance-slide"
       borderRadius="sharp"
     >
-      <div id="nav" data-section="nav">
+      <div id="nav" data-section="nav" className="scroll-mt-24">
         <NavbarLayoutFloatingInline
           navItems={[
             { name: "About", id: "about" },
@@ -70,12 +70,12 @@ export default function Page() {
               {
                 title: "Custom Software Development",
                 description: "Build software tailored to your needs.",
-                imageSrc="/public/images/placeholder.webp"
+                imageSrc={"/public/images/placeholder.webp"}
               },
               {
                 title: "IT Consulting",
                 description: "Expert advice to navigate the tech world.",
-                imageSrc="/public/images/placeholder.webp"
+                imageSrc={"/public/images/placeholder.webp"}
               }
             ]}
             title="Our Services"
