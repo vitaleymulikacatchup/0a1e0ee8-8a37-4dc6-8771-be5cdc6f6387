@@ -70,12 +70,12 @@ export default function Page() {
               {
                 title: "Custom Software Development",
                 description: "Build software tailored to your needs.",
-                imageSrc={"/public/images/placeholder.webp"}
+                imageSrc="/public/images/placeholder.webp"
               },
               {
                 title: "IT Consulting",
                 description: "Expert advice to navigate the tech world.",
-                imageSrc={"/public/images/placeholder.webp"}
+                imageSrc="/public/images/placeholder.webp"
               }
             ]}
             title="Our Services"
