@@ -39,13 +39,13 @@ export default function Page() {
           buttonVariant="icon-arrow"
         />
       </div>
-      <div id="hero" data-section="hero" className="scroll-mt-24 ">
-        <div className="mx-auto px-4 md:px-6 ">
+      <div id="hero" data-section="hero" className="scroll-mt-24">
+        <div className="mx-auto px-4 md:px-6">
           <HeroSplit
             title="Innovate with Us"
             description="Delivering cutting-edge IT solutions tailored for your business."
-            imageSrc={assetMap.find(a => a.id === "hero-image")?.url ?? "/public/images/placeholder.webp"}
-            imageAlt={assetMap.find(a => a.id === "hero-image")?.alt ?? "modern office workspace"}
+            imageSrc="https://images.pexels.com/photos/34239106/pexels-photo-34239106.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+            imageAlt="modern office workspace - Photo by Jakub Zerdzicki"
             buttons={[
               { text: "Learn More", href: "about" },
               { text: "Contact Us", href: "contact" }
@@ -54,8 +54,8 @@ export default function Page() {
           />
         </div>
       </div>
-      <div id="about" data-section="about" className="scroll-mt-24 ">
-        <div className="mx-auto px-4 md:px-6 ">
+      <div id="about" data-section="about" className="scroll-mt-24">
+        <div className="mx-auto px-4 md:px-6">
           <TextSplitAbout
             title="About Us"
             description={["At IT Company, we strive to deliver the highest quality tech services.", "Our mission is to empower businesses with innovative solutions."]}
@@ -63,8 +63,8 @@ export default function Page() {
           />
         </div>
       </div>
-      <div id="feature" data-section="feature" className="scroll-mt-24 ">
-        <div className="mx-auto px-4 md:px-6 ">
+      <div id="feature" data-section="feature" className="scroll-mt-24">
+        <div className="mx-auto px-4 md:px-6">
           <FeatureCardOne
             features={[
               {
@@ -83,8 +83,8 @@ export default function Page() {
           />
         </div>
       </div>
-      <div id="team" data-section="team" className="scroll-mt-24 ">
-        <div className="mx-auto px-4 md:px-6 ">
+      <div id="team" data-section="team" className="scroll-mt-24">
+        <div className="mx-auto px-4 md:px-6">
           <TeamCardTwo
             members={[
               {
@@ -92,7 +92,7 @@ export default function Page() {
                 name: "John Doe",
                 role: "CEO",
                 description: "Leading the way in tech innovation.",
-                imageSrc={assetMap.find(a => a.id === "team-member-1")?.url ?? "/public/images/placeholder.webp"},
+                imageSrc="https://images.pexels.com/photos/3184395/pexels-photo-3184395.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
                 socialLinks: [{ icon: Linkedin, url: "https://linkedin.com" }]
               },
               {
@@ -100,7 +100,7 @@ export default function Page() {
                 name: "Jane Smith",
                 role: "CTO",
                 description: "Innovating at the intersection of technology and business.",
-                imageSrc={assetMap.find(a => a.id === "team-member-2")?.url ?? "/public/images/placeholder.webp"},
+                imageSrc="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
                 socialLinks: [{ icon: Twitter, url: "https://twitter.com" }]
               }
             ]}
@@ -108,8 +108,8 @@ export default function Page() {
           />
         </div>
       </div>
-      <div id="testimonial" data-section="testimonial" className="scroll-mt-24 ">
-        <div className="mx-auto px-4 md:px-6 ">
+      <div id="testimonial" data-section="testimonial" className="scroll-mt-24">
+        <div className="mx-auto px-4 md:px-6">
           <TestimonialCardTwo
             testimonials={[
               {
@@ -117,22 +117,22 @@ export default function Page() {
                 name: "Alisa Hester",
                 role: "Project Manager",
                 testimonial: "The attention to detail and commitment to excellence was outstanding.",
-                imageSrc={assetMap.find(a => a.id === "testimonial-image-1")?.url ?? "/public/images/placeholder.webp"}
+                imageSrc="https://images.pexels.com/photos/10376007/pexels-photo-10376007.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
               },
               {
                 id: "2",
                 name: "Michael Brown",
                 role: "Tech Lead",
                 testimonial: "A truly professional experience from start to finish.",
-                imageSrc={assetMap.find(a => a.id === "testimonial-image-2")?.url ?? "/public/images/placeholder.webp"}
+                imageSrc="https://images.pexels.com/photos/6205542/pexels-photo-6205542.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
               }
             ]}
             title="What Our Clients Say"
           />
         </div>
       </div>
-      <div id="socialProof" data-section="socialProof" className="scroll-mt-24 ">
-        <div className="mx-auto px-4 md:px-6 ">
+      <div id="socialProof" data-section="socialProof" className="scroll-mt-24">
+        <div className="mx-auto px-4 md:px-6">
           <SocialProofOne
             logos={[
               "/logos/company1.svg",
@@ -146,8 +146,8 @@ export default function Page() {
           />
         </div>
       </div>
-      <div id="contact" data-section="contact" className="scroll-mt-24 ">
-        <div className="mx-auto px-4 md:px-6 ">
+      <div id="contact" data-section="contact" className="scroll-mt-24">
+        <div className="mx-auto px-4 md:px-6">
           <ContactSplit
             tag="Contact Us"
             title="Get in Touch"
@@ -159,8 +159,8 @@ export default function Page() {
           />
         </div>
       </div>
-      <div id="footer" data-section="footer" className="scroll-mt-24 ">
-        <div className="mx-auto px-4 md:px-6 ">
+      <div id="footer" data-section="footer" className="scroll-mt-24">
+        <div className="mx-auto px-4 md:px-6">
           <FooterBase
             columns={[
               {
